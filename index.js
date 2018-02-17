@@ -99,7 +99,9 @@ else if (top<400){
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM
      */
-  }
+else if(top =400) {
+  GAME.removeChild(rock);
+} }
 
   // We should kick of the animation of the rock around here
 
