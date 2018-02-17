@@ -101,7 +101,7 @@ else if (top<400){
      */
 else if(top >=400) {
   GAME.removeChild(rock);
-}
+}}
 
   // We should kick of the animation of the rock around here
 window.requestAnimationFrame(moveRock);
