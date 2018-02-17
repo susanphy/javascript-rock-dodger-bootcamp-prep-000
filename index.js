@@ -84,7 +84,7 @@ GAME.appendchild(rock)
      * If a rock collides with the DODGER,
      * we should call endGame()
      */
-if (checkCollision(rock){
+if (checkCollision(rock)){
   return endGame;}
 
     /**
