@@ -92,7 +92,7 @@ if (checkCollision(rock){
      * the GAME, we want to move it again.
      */
 else if (top<400){
-  rock.style.top = `${top += 2}px`
+  rock.style.top = `${top += 2}px`;
   window.requestAnimationFrame(moveRock);
 }
     /**
